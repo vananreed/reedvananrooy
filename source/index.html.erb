@@ -17,6 +17,22 @@ title: Reed Van Anrooy
   </div>
 </div>
 </div>
-<section class="portfolio">
-  <h3>projects</h3>
+<section id="portfolio">
+  <div class="projects-header">
+    <h3>projects</h3>
+  </div>
+  <div class="projects-section">
+    <% data.projects.each do |project| %>
+      <div><%= link_to "#{project.name}", project.link %></div>
+    <% end %>
+  </div>
+</section>
+<section id="about-me">
+  <h3>About Me</h3>
+</section>
+<section id="contact-me">
+  <h3>Contact Me</h3>
+  <form action="/">
+    <input type="text" placeholder="NAME">
+  </form>
 </section>
