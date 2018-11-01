@@ -1,17 +1,35 @@
 #home {
-  background-color: #D23333;
+  background-color: $blue;
   color: white;
+}
+
+.home-banner {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.banner-content {
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+  i {
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+    &:hover {
+      opacity: 0.8;
+      color: $gray;
+      transition: 0.5s all ease;
+    }
   }
 }
+
+.projects-header {
+  height: 25vh;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+
