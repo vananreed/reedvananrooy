@@ -23,7 +23,7 @@ title: Reed Van Anrooy
   </div>
   <div class="projects-section">
     <% data.projects.each do |project| %>
-      <%= partial "project-card", locals: { project: project } %>
+      <div class="col-sm-12 col-md-4"><%= partial "project-card", locals: { project: project } %></div>
     <% end %>
   </div>
 </section>
