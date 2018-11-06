@@ -25,11 +25,16 @@
 }
 
 .projects-header {
-  height: 25vh;
+  height: 20vh;
   justify-content: space-around;
   display: flex;
   align-items: center;
   padding-bottom: 20px;
+  h3 {
+    font-size: 45px;
+  }
 }
+
+
 
 
