@@ -3,32 +3,38 @@ title: Reed Van Anrooy
 ---
 
 <div id="home">
-<div class="container home-banner">
-  <div class="banner-content">
-    <div class="my-key-words">
-      <span>Web</span> <span>Developer</span>
-    </div>
-    <h1 class="my-name">Reed Van Anrooy</h1>
-    <div class="social-logos">
-      <a href="https://github.com/vananreed"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/reed-van-anrooy-97a884145/"><i class="fab fa-linkedin-in"></i></a>
-      <a href="/contact.html"><i class="fas fa-envelope"></i></a>
+  <div class="container home-banner">
+    <div class="banner-content">
+      <div class="my-key-words">
+        <span>Web</span> <span>Developer</span>
+      </div>
+      <h1 class="my-name">Reed Van Anrooy</h1>
+      <div class="social-logos">
+        <a href="https://github.com/vananreed"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/reed-van-anrooy-97a884145/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="/contact.html"><i class="fas fa-envelope"></i></a>
+      </div>
+      <!-- <div class="banner-quote">The future is online, I can help you put it there.</div> -->
     </div>
   </div>
-</div>
 </div>
 <section id="portfolio">
   <div class="projects-header">
-    <h3>projects</h3>
+    <h3>Projects</h3>
   </div>
   <div class="projects-section">
+    <div class="row">
     <% data.projects.each do |project| %>
-      <div class="col-sm-12 col-md-4"><%= partial "project-card", locals: { project: project } %></div>
+    <div class="col-sm-12 col-md-4"><%= partial "project-card", locals: { project: project } %></div>
     <% end %>
+    </div>
   </div>
 </section>
 <section id="about-me">
-  <h3>About Me</h3>
+  <div class="container">
+    <h3 class="text-center">About Me</h3>
+    <p class="about-me-content">Born and raised in southern Oregon, I grew up seeing the positive impact technology could have on people's lives. Always having an affinity for math and science, I began my career in biology, but quickly found I could automate the boring parts of my job with a little code. Pivoting into programming, I choose to focus on web development because of the wide range of projects I can work on, and the solutions I can bring to people of many different backgrounds and needs.</p>
+  </div>
 </section>
 <section id="contact-me">
   <h3>Contact Me</h3>
