@@ -30,22 +30,18 @@
 }
 
 .contact-me-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: bottom;
   max-width: 90vw;
   padding: 20px 10px 0 10px;
   margin: 0 17vw;
   .contact-me-icon {
     height: 50px;
-    width: 33%;
     font-size: 1.5rem;
     position: relative;
-    background-color: $green;
     i {
       position: absolute;
       left: 2px;
       top: 30%;
+      color: $blue;
     }
     .contact-format {
       position: absolute;

@@ -1,21 +1,29 @@
 <div class="contact-me-form">
   <div class="container">
     <h3 class="text-center">Contact Me</h3>
-    <div class="contact-me-icons">
-      <div class="contact-me-icon">
-        <i class="fas fa-phone"></i>
-        <span class="contact-format">Skype</span>
-        <span class="contact-data"><%= data.users.first.skype_name %></span>
+    <div class="row">
+      <div class="contact-me-icons">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="contact-me-icon">
+          <i class="fas fa-phone"></i>
+          <span class="contact-format">Skype</span>
+          <span class="contact-data"><%= data.users.first.skype_name %></span>
+        </div>
       </div>
-      <div class="contact-me-icon" id="my-location">
-        <i class="fas fa-map-marker"></i>
-        <span class="contact-format">Where am I?</span>
-        <span class="contact-data"><%= data.users.first.location %></span>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="contact-me-icon" id="my-location">
+          <i class="fas fa-map-marker"></i>
+          <span class="contact-format">Where am I?</span>
+          <span class="contact-data"><%= data.users.first.location %></span>
+        </div>
       </div>
-      <div class="contact-me-icon">
-        <i class="fas fa-envelope-square"></i>
-        <span class="contact-format">Email</span>
-        <span class="contact-data"><%= data.users.first.email %></span>
+        <div class="col-xs-12 col-sm-6 col-sm-push-3 col-md-push-0 col-md-4">
+        <div class="contact-me-icon">
+          <i class="fas fa-envelope-square"></i>
+          <span class="contact-format">Email</span>
+          <span class="contact-data"><%= data.users.first.email %></span>
+        </div>
+        </div>
       </div>
     </div>
     <div class="row">
