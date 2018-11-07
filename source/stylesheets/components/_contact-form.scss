@@ -1,0 +1,61 @@
+.contact-me-form {
+  h3 {
+    padding-top: 60px;
+  }
+}
+
+.contact-me-form-fields {
+  padding: 25px 2px;
+  input, textarea {
+    width: 100%;
+    margin: 3px 0;
+    padding: 8px;
+    border-radius: 1px;
+    border: none;
+    border-bottom: 2px solid white;
+    color: $blue;
+    transition: 0.4s all ease;
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid $blue;
+      &::placeholder {
+        opacity: 1.0;
+      }
+    }
+    &::placeholder {
+      color: $blue;
+      opacity: 0.7;
+    }
+  }
+}
+
+.contact-me-icons {
+  max-width: 90vw;
+  padding: 20px 10px 0 10px;
+  margin: 0 17vw;
+  .contact-me-icon {
+    height: 50px;
+    font-size: 1.5rem;
+    position: relative;
+    i {
+      position: absolute;
+      left: 2px;
+      top: 30%;
+      color: $blue;
+    }
+    .contact-format {
+      position: absolute;
+      left: 30px;
+      top: 3px;
+    }
+    .contact-data {
+      position: absolute;
+      left: 30px;
+      bottom: 3px;
+    }
+  }
+}
+
+#my-location {
+  min-width: 145px;
+}

@@ -1,4 +1,10 @@
 - name: 'Reed Van Anrooy'
   github_nickname: 'vananreed'
-- name: 'Boris Paillard'
-  github_nickname: 'Papillard'
+  skype_name: 5416717569
+  location: Salt Lake City, UT
+  email: reed.vananrooy@gmail.com
+- name: 'Hugo Collado'
+  github_nickname: 'zentuco'
+  skype_name: 'zentuco'
+  location: Madrid, Spain
+  email: hugo@agenciadedigitalninjas.es
