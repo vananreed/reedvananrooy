@@ -1,11 +1,10 @@
 #footer-section {
-  margin-top: 50px;
+  margin-top: 60px;
   height: 300px;
   background-color: $blue;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  // position: relative;
 }
 
 .footer-content {
@@ -24,7 +23,5 @@
 
 .last-update-date {
   font-size: 16px;
-  // position: absolute;
-  // bottom: 20px;
   margin-top: 60px;
 }
