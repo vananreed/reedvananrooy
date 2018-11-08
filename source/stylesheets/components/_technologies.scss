@@ -1,7 +1,31 @@
 #technologies {
   text-align: center;
-  .tech-logo img {
-    height: 40px;
-    width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.technologies-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  .tech-logo {
+    padding: 20px;
   }
+}
+.tech-logo img {
+  height: 40px;
+  width: auto;
+}
+
+#logo-css {
+  height: 50px;
+}
+
+#logo-html {
+  height: 44px;
+}
+
+#logo-bootstrap {
+  height: 48px;
 }

@@ -1,3 +1,11 @@
+h1, h3 {
+  letter-spacing: 0.2em;
+}
+
+h3 {
+  text-shadow: 1px 1px 2px $blue;
+}
+
 #home {
   background-color: $blue;
   color: white;
