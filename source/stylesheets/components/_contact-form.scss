@@ -4,8 +4,21 @@
   }
 }
 
+
+
 .contact-me-form-fields {
   padding: 25px 2px;
+  .submit-button {
+  transition: 0.5s all ease;
+  border: 2px solid $blue;
+  border-radius: 3px;
+  color: white;
+  background-color: $blue;
+  &:hover {
+    color: $blue;
+    background-color: white;
+  }
+}
   input, textarea {
     width: 100%;
     margin: 3px 0;
