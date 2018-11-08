@@ -12,6 +12,9 @@
 
 .banner-content {
   text-align: center;
+}
+
+.social-logos {
   i {
     color: white;
     margin: 5px;
@@ -21,6 +24,12 @@
       color: $gray;
       transition: 0.5s all ease;
     }
+  }
+}
+
+.social-logo-small {
+  i {
+    font-size: 18px;
   }
 }
 
