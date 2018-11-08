@@ -12,6 +12,9 @@
 
 .banner-content {
   text-align: center;
+}
+
+.social-logos {
   i {
     color: white;
     margin: 5px;
@@ -24,6 +27,12 @@
   }
 }
 
+.social-logo-small {
+  i {
+    font-size: 18px;
+  }
+}
+
 .projects-header {
   height: 20vh;
   justify-content: space-around;
@@ -31,7 +40,17 @@
   align-items: center;
   padding-bottom: 20px;
   h3 {
-    font-size: 45px;
+    font-size: 38px;
+  }
+}
+
+#portfolio {
+  background-color: white;
+  .projects-section {
+    .row {
+
+    max-width: 100vw;
+    }
   }
 }
 
