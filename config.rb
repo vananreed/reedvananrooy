@@ -20,3 +20,21 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+require "sinatra"
+
+class MySinatra < Sinatra::Base
+  get "/" do
+    "Hello World (Sinatra)"
+  end
+  get "/contact.html" do
+    @name = params["name"]
+    @email = params["email"]
+    @message = params["message"]
+    byebug
+  end
+end
+
+map "/sinatra" do
+  run MySinatra
+end
