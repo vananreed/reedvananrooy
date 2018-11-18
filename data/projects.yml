@@ -7,3 +7,6 @@
 - name: 'Learn English'
   link: 'https://teacher-abby.herokuapp.com/'
   image: 'teacher-abby.png'
+- name: 'CircuitKing'
+  link: 'https://circuit-king.herokuapp.com/'
+  image: 'circuitking.png'
